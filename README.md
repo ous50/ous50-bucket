@@ -1,4 +1,4 @@
-# ous50-bucket 
+# ous50-bucket
 
 My manifests for [Scoop](https://scoop.sh), the Windows command-line installer.
 
