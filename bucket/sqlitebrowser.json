@@ -2,7 +2,7 @@
     "version": "3.12.2",
     "description": "DB Browser for SQLite (DB4S) project",
     "homepage": "https://github.com/sqlitebrowser/sqlitebrowser",
-    "license": "MPL-2.0|GPL-3.0-or-later",
+    "license": "GNU General Public License v3.0",
     "architecture": {
         "64bit": {
             "url": "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.2/DB.Browser.for.SQLite-3.12.2-win64.zip",
@@ -35,10 +35,7 @@
         ]
     ],
     "persist": "Data",
-    "checkver": {
-        "url": "https://github.com/sqlitebrowser/sqlitebrowser/releases",
-        "regex": "SQLite-([\\d.]+)-win64\\.zip"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
