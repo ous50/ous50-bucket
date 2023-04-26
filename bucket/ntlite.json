@@ -1,5 +1,5 @@
 {
-    "version": "2023.4.9207",
+    "version": "2023.4.9208",
     "description": "",
     "homepage": "https://www.ntlite.com/",
     "license": "",
@@ -7,11 +7,11 @@
     "architecture": {
         "64bit": {
             "url": "https://downloads.ntlite.com/files/NTLite_setup_x64.exe#/setup.exe",
-            "hash": "77299dd2e75e23b61ab5badaf457158ac80b47a885b107bd3c126b122bc411a3"
+            "hash": "98f5d49598826429073561b62927af336b153441f82a977b9fe4b8000ba4cbbf"
         },
         "32bit": {
             "url": "https://downloads.ntlite.com/files/NTLite_setup_x64.exe#/setup.exe",
-            "hash": "77299dd2e75e23b61ab5badaf457158ac80b47a885b107bd3c126b122bc411a3"
+            "hash": "98f5d49598826429073561b62927af336b153441f82a977b9fe4b8000ba4cbbf"
         }
     },
     "installer": {
