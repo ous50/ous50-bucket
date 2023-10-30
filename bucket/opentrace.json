@@ -1,0 +1,41 @@
+{
+    "version": "1.2.3.0",
+    "description": "A cross-platform GUI wrapper for NextTrace. Bringing you a sense of familiarity.",
+    "homepage": "https://github.com/Archeb/opentrace",
+    "license": {
+        "identifier": "GPL-3.0",
+        "url": "https://github.com/Archeb/opentrace/blob/master/LICENSE.txt"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Archeb/opentrace/releases/download/v1.2.3.0/win-x64.zip",
+            "hash": "08dc96e4ed96a57f1e19d29a853c1f7d435ee31f693d961c44fb3abc4a626b5a"
+        }
+    },
+    "depends": "nexttrace",
+    "pre_install": "if (Test-Path \"$persist_dir\\log.txt\") { Copy-Item \"$persist_dir\\log.txt\" \"$dir\\\" }",
+    "pre_uninstall": "if (Test-Path \"$dir\\log.txt\") { Copy-Item \"$dir\\log.txt\" \"$persist_dir\\\" }",
+    "bin": [
+        [
+            "OpenTrace.exe",
+            "OpenTrace"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "OpenTrace.exe",
+            "OpenTrace"
+        ]
+    ],
+    "persist": "OpenTrace.pdb",
+    "checkver": {
+        "github": "https://github.com/Archeb/opentrace"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Archeb/opentrace/releases/download/v$version/win-x64.zip"
+            }
+        }
+    }
+}
