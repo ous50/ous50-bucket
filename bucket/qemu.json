@@ -9,6 +9,8 @@
             "hash": "sha512:adeac24fdffa394330cf3aa5d983833ca0329fbfa30853ecd9826815baf98c0b64c72bc232bebbafb8b48ed50eb1e2b9439e37634892c34d7d6a93827c856623"
         }
     },
+    "pre_install": "Expand-7zipArchive \"$dir\\dl.7z_\" \"$dir\" -Removal -Switches '-xr!*.exe.nsis -x!$PLUGINSDIR'",
+    "env_add_path": ".",
     "bin": [
         ["qemu-edid.exe", "qemu-edid"],
         ["qemu-ga.exe", "qemu-ga"],
@@ -79,8 +81,6 @@
         ["qemu-system-xtensaebw.exe", "qemu-system-xtensaebw"],
         ["qemu-system-xtensaw.exe", "qemu-system-xtensaw"]
     ],
-    "pre_install": "Expand-7zipArchive \"$dir\\dl.7z_\" \"$dir\" -Removal -Switches '-xr!*.exe.nsis -x!$PLUGINSDIR'",
-    "env_add_path": ".",
     "checkver": "<strong>(?<year>\\d+)-(?<month>\\d+)-(?<day>\\d+)</strong>: New QEMU installer \\((?<Version>\\d+\\.\\d+\\.\\d+(-rc\\d+)?)\\)",
     "autoupdate": {
         "architecture": {
