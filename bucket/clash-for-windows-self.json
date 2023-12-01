@@ -21,7 +21,7 @@
     "architecture": {
         "64bit": {
             "url": "https://r2.ous50.moe/Clash.for.Windows-0.20.39-win.7z",
-            "hash": "52bb3dea977d076b4452b251acd1fb4b1da21e1e30348f4925e9698af89458ae"
+            "hash": "b23a790d688c215c4adc886baa1dcce9232251f906a4559c78500f8ab8306666"
         }
     },
     "persist": "data",
