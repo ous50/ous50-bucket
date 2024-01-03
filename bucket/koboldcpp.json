@@ -11,7 +11,7 @@
         }
     },
     "bin": "koboldcpp.exe",
-    "persist": "models",
+    "persist": "LLM-models",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
