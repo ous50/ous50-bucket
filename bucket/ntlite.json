@@ -1,5 +1,5 @@
 {
-    "version": "2024.8.10024",
+    "version": "2024.8.10025",
     "description": "",
     "homepage": "https://www.ntlite.com/",
     "license": "",
@@ -7,11 +7,11 @@
     "architecture": {
         "64bit": {
             "url": "https://downloads.ntlite.com/files/NTLite_setup_x64.exe#/setup.exe",
-            "hash": "97f5564554c900adfe7a5a3be734c9b39838ace7e8981110cd7a13e36ebbbe61"
+            "hash": "7716030950eaa1145ea2b8fbfc09bd054c76d315a6b2aa96f5e895899f9102c7"
         },
         "32bit": {
             "url": "https://downloads.ntlite.com/files/NTLite_setup_x64.exe#/setup.exe",
-            "hash": "97f5564554c900adfe7a5a3be734c9b39838ace7e8981110cd7a13e36ebbbe61"
+            "hash": "7716030950eaa1145ea2b8fbfc09bd054c76d315a6b2aa96f5e895899f9102c7"
         }
     },
     "installer": {
