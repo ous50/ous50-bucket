@@ -1,5 +1,5 @@
 {
-    "version": "23.11.0-2",
+    "version": "25.7.0-2",
     "description": "A cross-platform, Python-agnostic binary package manager",
     "homepage": "https://conda.io/miniconda.html",
     "license": "BSD-3-Clause",
@@ -11,8 +11,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://repo.anaconda.com/miniconda/Miniconda3-py38_23.11.0-2-Windows-x86_64.exe#/setup.exe",
-            "hash": "74dff3c5e867dffa74a34eca1c4daac550ba42f9229547b37ae4a706c58ca775"
+            "url": "https://repo.anaconda.com/miniconda/Miniconda3-py310_25.7.0-2-Windows-x86_64.exe#/setup.exe",
+            "hash": "3f5b24e9873bf12a72b7a639e7d59d3cc1015f4cd552dbaf981cc0518be271ed"
         }
     },
     "installer": {
@@ -55,12 +55,12 @@
     "persist": "bin\\envs",
     "checkver": {
         "url": "https://repo.anaconda.com/miniconda/",
-        "regex": "Miniconda3-py38_([(0-9).]+-[(0-9)]?)-Windows"
+        "regex": "Miniconda3-py310_([(0-9).]+-[(0-9)]?)-Windows"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://repo.anaconda.com/miniconda/Miniconda3-py38_$version-Windows-x86_64.exe#/setup.exe"
+                "url": "https://repo.anaconda.com/miniconda/Miniconda3-py310_$version-Windows-x86_64.exe#/setup.exe"
             }
         },
         "hash": {
