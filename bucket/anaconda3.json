@@ -1,5 +1,5 @@
 {
-    "version": "2022.10",
+    "version": "2025.06-1",
     "description": "The most popular Python distribution for data science.",
     "homepage": "https://www.anaconda.com/",
     "license": "BSD-3-Clause",
@@ -11,8 +11,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://repo.anaconda.com/archive/Anaconda3-2022.10-Windows-x86_64.exe#/setup.exe",
-            "hash": "38b9d53a579843fe41fd05fd3c4f9ac3887f580e7bd9b43f220bbc3aea2367eb"
+            "url": "https://repo.anaconda.com/archive/Anaconda3-2025.06-1-Windows-x86_64.exe#/setup.exe",
+            "hash": "36ba946abeb6bb7ba3235e0ccb67660e0b545235ca467f3aa964cd4b307c14ed"
         }
     },
     "installer": {
@@ -53,7 +53,7 @@
     "persist": "envs",
     "checkver": {
         "url": "https://repo.anaconda.com/archive/",
-        "regex": "Anaconda3-([\\d.]+)-Windows"
+        "regex": "Anaconda3-([\\d.]+-?[\\d]?)-Windows"
     },
     "autoupdate": {
         "architecture": {
@@ -63,7 +63,7 @@
         },
         "hash": {
             "url": "https://repo.anaconda.com/archive/",
-            "regex": "(?sm)$basename+.*?([a-f0-9]{64})"
+            "regex": "(?sm)$basename.*?>$sha256<"
         }
     }
 }
