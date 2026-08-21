@@ -1,9 +1,6 @@
 {
     "version": "2026.08.11704",
-    "description": [
-        "Automate, Secure, and Customize Windows, Locally",
-        "Edit Windows images or the live install directly. Integrate updates and drivers, script unattended setup, build ISOs."
-    ],
+    "description": "Edit Windows images or the live install directly. Integrate updates and drivers, script unattended setup, build ISOs.",
     "homepage": "https://www.ntlite.com/",
     "license": "",
     "notes": "",
