@@ -37,7 +37,7 @@
     "checkver": {
         "github": "https://api.github.com/repos/MaaEnd/MaaEnd/releases",
         "jsonpath": "$[?(@.prerelease == true)].tag_name",
-        "regex": "v?([\\w.-]+)"
+        "regex": "(?!v)?([\\w.-]+)"
     },
     "autoupdate": {
         "architecture": {
