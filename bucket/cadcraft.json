@@ -31,10 +31,6 @@
         [
             "cadcraft.exe",
             "CADCraft"
-        ],
-        [
-            "cadcraft-cli.exe",
-            "cadcraft-cli"
         ]
     ],
     "checkver": "github",
